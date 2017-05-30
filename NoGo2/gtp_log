@@ -1,0 +1,76 @@
+= 
+
+= 
+
+= 
+
+= illegal move: w b1 occupied
+
+= illegal move: pass
+
+= 
+[[0 1 0 0 0 0 0]
+ [0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0]]
+
+? Unknown command
+
+= 
+
+= illegal move: w a1 suicide
+
+= illegal move: c r1 wrong color
+
+= illegal move: c r66 wrong color
+
+= illegal move: c r99 wrong color
+
+= illegal move: b c99 wrong coordinate
+
+= illegal move: r wrong number of arguments
+
+= illegal move: r c99 wrong color
+
+= illegal move: b c99 wrong coordinate
+
+= 
+[[0 1 0 0 0 0 0]
+ [1 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0]]
+
+? Unknown command
+
+= 
+
+= 
+
+= 
+
+= 
+[[2 1 0 0 0 0 0]
+ [0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0]]
+
+= illegal move: b a2 capture
+
+= 
+[[2 1 0 0 0 0 0]
+ [0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0]]
+

@@ -1,0 +1,31 @@
+Script started on Tue 28 Feb 2017 03:43:54 PM MST
+cs3@ue19:~/496>cp a2.tgz Submission/
+cs3@ue19:~/496>cd Submission/
+cs3@ue19:~/496/Submission>tar -x[Kzxvf a2.tgz 
+NoGo2/board.py
+NoGo2/__pycache__/board_util.cpython-35.pyc
+NoGo2/__pycache__/
+NoGo2/Go1.py
+NoGo2/summary.dat
+NoGo2/gtp_connection.py
+NoGo2/__pycache__/board.cpython-35.pyc
+NoGo2/__pycache__/gtp_connection.cpython-35.pyc
+NoGo2/nogosolvertest.gtp
+NoGo2/readme.txt
+NoGo2/a2-sample.gtp
+NoGo2/board_util.py
+NoGo2/__pycache__/gtp_connection.cpython-34.pyc
+NoGo2/__pycache__/board.cpython-36.pyc
+NoGo2/__pycache__/board.cpython-34.pyc
+NoGo2/
+NoGo2/public-tests-nogo-solve.gtp
+NoGo2/gtp_log
+NoGo2/__pycache__/board_util.cpython-34.pyc
+cs3@ue19:~/496/Submission>cd NoGo2/
+cs3@ue19:~/496/Submission/NoGo2>cd NoGo2/tar -zxvf a2.tgz [3Pcd Submission/[7@p a2.tgz[C[C[C[C[C[C[C[C[C[C[C[C[11P~/.profilegogui-regressregess[1PegessPATH=$PATH:./cshome/c496/usr/local/bin/ /cshome/c496/usr/local/bin/[1P/cshome/c496/usr/local/bin/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgogui-regess[Kregessegress[3P~/.profilecp a2.tgz Submission/[7Pd[C[C[C[C[C[C[C[C[C[C[C[Ctar -zxvf a2.tgz [8Pcd NoGo2/[Kcd NoGo2/tar -zxvf a2.tgz [3Pcd Submission/[7@p a2.tgz[C[C[C[C[C[C[C[C[C[C[C[C[11P~/.profilegogui-regressregess[1PegessPATH=$PATH:./cshome/c496/usr/local/bin/ /cshome/c496/usr/local/bin/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgogui-regress[KPATH=$PATH:. /cshome/c496/usr/local/bin/gogui-reggress[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pgogui-regress 'python3 Go1.py' a2-sample.gtp 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd NoGo2/[Kgogui-regress 'python3 Go1.py' a2-sample.gtp [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CPATH=$PATH:. /cshome/c496/usr/local/bin/gogui-reggress[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgogui-regress[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CPATH=$PATH:. /cshome/c496/usr/local/bin/[1P/cshome/c496/usr/local/bin/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgogui-regess[Kregessegress[3P~/.profilecp a2.tgz Submission/[7Pd[C[C[C[C[C[C[C[C[C[C[C[Ctar -zxvf a2.tgz [8Pcd NoGo2/[Kgogui-regress 'python3 Go1.py' a2-sample.gtp nogoosolvertest.gtp 
+cs3@ue19:~/496/Submission/NoGo2>exit
+exit
+
+Script done on Tue 28 Feb 2017 03:47:13 PM MST

@@ -1,0 +1,38 @@
+Script started on Sun 09 Apr 2017 08:11:41 PM MDT
+cs3@uf18:~/496>cp a4.tgz submission/
+cs3@uf18:~/496>cd submission/
+cs3@uf18:~/496/submission>tar -xzvf a4.tgz 
+Go6.py
+features_weight.dat
+readme.txt
+gtp_connection.py
+policy_probabilistic_player.py
+pattern.py
+__pycache__/board_util.cpython-34.pyc
+createFeatures.sh
+a4-sample.gtp
+mcts.pyc
+board_util.py
+__pycache__/board.cpython-36.pyc
+__pycache__/board.cpython-34.pyc
+__pycache__/gtp_connection.cpython-35.pyc
+__pycache__/pattern.cpython-34.pyc
+pattern.pyc
+C:\\nppdf32Log\\debuglog.txt
+policy_max_player.py
+summary.dat
+__pycache__/
+feature.py
+__pycache__/board_util.cpython-35.pyc
+__pycache__/feature.cpython-34.pyc
+mcts.py
+__pycache__/mcts.cpython-34.pyc
+board_util.pyc
+__pycache__/board.cpython-35.pyc
+__pycache__/gtp_connection.cpython-34.pyc
+board.py
+cs3@uf18:~/496/submission>gogui-regress "python3 g[KGo6.py" a4-e[Ksample.gtp 
+cs3@uf18:~/496/submission>exit
+exit
+
+Script done on Sun 09 Apr 2017 08:12:41 PM MDT

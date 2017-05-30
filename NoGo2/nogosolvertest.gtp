@@ -1,0 +1,71 @@
+boardsize 3
+clear_board
+play b a1
+play b b2
+play b c3
+play b a3
+play b c1
+10 solve
+#?[b]
+#Checking toPlay works properly if the current player loses
+
+20 genmove w
+#? [resign]
+#Making sure genmove resigns when it has no legal moves
+
+
+30 genmove b
+#? [b1|b3|a2|c2]
+#Even though black has won it should still have moves left, enure it fills its own eyes
+
+boardsize 4
+clear_board
+timelimit 1
+40 solve
+#? [unknown]
+#making sure time limit works
+
+boardsize 3
+clear_board
+timelimit 4
+play b b2
+50 solve
+#? [b]
+
+boardsize 4
+clear_board
+timelimit 10
+play b b2
+play w b1
+play b c3
+play w a2
+play b d1
+play w d3
+play b c1
+play w c4
+play b a4
+60 solve
+#? [w c2]
+#Testing to make sure it play around eyes properly
+
+boardsize 3
+clear_board
+timelimit 10
+70 solve
+#?[b a1|b a2|b a3|b b1|b b2|b b3|b c1|b c2|b c3]
+#All opening moves win, this tests that it can do 3x3 in a good time.
+
+boardsize 2
+clear_board
+play b a1
+80 solve
+#?[b]
+#Black should win, sets up next test
+90 genmove w
+#? [a2|b1|b2]
+#Black wins so it randomly selects a move from whats left
+
+100 timelimit 10
+#? []
+#Making sure we took out print and that timelimit actually works this version
+
