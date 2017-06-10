@@ -1,0 +1,54 @@
+1 play b a2
+#? [Illegal Move: a2]
+#Tests that board is linear
+2 play b l1
+#? [illegal move: b l1 wrong coordinate]
+#Tests that board is size 10 (Because i is not counted)
+
+
+boardsize 10
+clear_board
+play b a1
+
+play w b1
+
+play w c1
+
+play w d1
+
+play w e1
+
+play w f1
+
+play w g1
+
+play w h1
+
+play w j1
+
+play w k1
+
+10 play b a1
+#? [Illegal Move: a1]
+#Checks positional superko
+
+20 genmove b
+#? [pass] 
+#Checks that the player understands superko
+
+
+
+
+
+boardsize 10
+clear_board
+
+play b b1
+
+play b d1
+
+30 play w c1
+#? [Illegal Move: c1] 
+#Tests Suicide
+
+

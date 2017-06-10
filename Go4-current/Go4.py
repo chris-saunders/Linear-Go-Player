@@ -40,7 +40,7 @@ class Go4Player(object):
 
     version = 0.3
     name = "Go4"
-    def __init__(self,num_simulation=10,size=10,limit=100): #Change this to edit sim limits and size
+    def __init__(self,num_simulation=60,size=10,limit=100): #Change this to edit sim limits and size
         """
         self.selfatari & self.pattern gets created in the gtp_connection, 
         when instance of GtpConnection is created
