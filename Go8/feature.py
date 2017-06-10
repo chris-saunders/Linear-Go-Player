@@ -84,7 +84,7 @@ class Feature(object):
     @staticmethod
     def write_feature(features, point):
         for f in features[point]:
-            print(f, end=" ")
+            print(f)
 
     @staticmethod
     def set_feature(features, point, feature):

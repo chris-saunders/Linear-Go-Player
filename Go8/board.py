@@ -485,6 +485,12 @@ class GoBoard(object):
         if not self.check_suicide:
             msg = "NO SUICIDE CHECKING. Playing a move with %s color in the row and column %d %d is permitted"%(color,c[0],c[1])
             return True, msg
+        if (self.board[12:22].tolist() in self.getSuperko()): #This checks if it hits superko rules
+            self.board[point] = EMPTY
+            for cap in self.captured_stones:
+                self.board[cap] = GoBoardUtil.opponent(color)
+            msg = "Positional Superko"
+            return False, msg
         if self._liberty_flood(fboard):
             #non suicidal move
             c=self._point_to_coord(point)

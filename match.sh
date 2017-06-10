@@ -10,9 +10,9 @@ RESULTDIR2=test2
 RESULTDIR3=test3
 RESULTDIR4=test4
 # Modify paths to your programs below as needed
-LGO1=Go4-current\\Go4.py
+LGO1=Go7\\Go7.py
 LGORANDOM=lgoRandom\\lgoRandom.py
-GO6=Go6\\Go6.py
+GO8=Go8\\Go8.py
 
 
 #####################
@@ -29,12 +29,12 @@ mkdir -p $RESULTDIR1
 mkdir -p $RESULTDIR2
 
 
-echo Playing $LGO1 vs $GO6
-$TWOGTP -black "python $LGO1" -white "python $GO6"  -auto -komi 0 -threads 2 -size $BOARDSIZE -games $NUGAMES -sgffile $RESULTDIR1/test1
+echo Playing $LGO1 vs $GO8
+$TWOGTP -black "python $LGO1" -white "python $GO8"  -auto -komi 0 -threads 2 -size $BOARDSIZE -games $NUGAMES -sgffile $RESULTDIR1/test1
 $TWOGTP -analyze $RESULTDIR1/test1.dat -force
 
-echo Playing $GO6 vs $LGO1
-$TWOGTP -white "python $LGO1" -black "python $GO6" -auto -komi 0 -threads 2 -size $BOARDSIZE -games $NUGAMES -sgffile $RESULTDIR2/test1
+echo Playing $GO8 vs $LGO1
+$TWOGTP -white "python $LGO1" -black "python $GO8" -auto -komi 0 -threads 2 -size $BOARDSIZE -games $NUGAMES -sgffile $RESULTDIR2/test1
 $TWOGTP -analyze $RESULTDIR2/test1.dat -force
 
 
@@ -58,6 +58,6 @@ $TWOGTP -analyze $RESULTDIR2/test1.dat -force
 # $TWOGTP -analyze $RESULTDIR3/test3.dat -force
 #
 }
-NUGAMES=60
+NUGAMES=10
 BOARDSIZE=10
 run

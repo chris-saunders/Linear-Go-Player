@@ -1,0 +1,18 @@
+# Black: Go8
+# BlackCommand: python Go8\Go8.py
+# BlackLabel: Go8
+# BlackVersion: 0.1
+# Date: June 10, 2017 3:21:38 AM MDT
+# Host: Home
+# Komi: 0
+# Referee: -
+# Size: 10
+# White: Go7
+# WhiteCommand: python Go7\Go7.py
+# WhiteLabel: Go7
+# WhiteVersion: 0.3
+# Xml: 0
+#
+#GAME	RES_B	RES_W	RES_R	ALT	DUP	LEN	TIME_B	TIME_W	CPU_B	CPU_W	ERR	ERR_MSG
+1	B+10.0	B+10.0	?	0	-	13	24.3	16.5	0	0	0	
+2	0	W+0.0	?	0	-	6	38.3	19.5	0	0	0	

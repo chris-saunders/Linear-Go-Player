@@ -35,7 +35,7 @@ class GtpConnection():
         self.go_engine.komi = 6.5
         self.go_engine.selfatari = 1 
         self.go_engine.pattern = 1
-        self.board = GoBoard(7)
+        self.board = GoBoard(10) #Change this to change board start size
         self.mm_file_name = "features_mm_training.dat"
         self.init_mm_file = False
         self.num_game = 0
@@ -450,9 +450,13 @@ class GtpConnection():
             if not self.board.move(move, color):
                 self.respond("Illegal Move: {}".format(board_move))
                 return
+            elif(self.board.board[12:22].tolist() in self.board.getSuperko()): #Positional Superko
+                self.respond("Illegal Move: Superko")
+                return
             else:
                 self.debug_msg("Move: {}\nBoard:\n{}\n".format(board_move, str(self.board.get_twoD_board())))
                 self.go_engine.update(move)
+            self.board.setSuperko(self.board.board)
             self.respond()
         except Exception as e:
             self.respond("illegal move: {} {} {}".format(board_color, board_move, str(e)))

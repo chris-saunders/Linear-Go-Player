@@ -21,7 +21,7 @@ class Go6Player():
         version : float
             version number (used by the GTP interface).
         """
-        self.name = "MCTS Player"
+        self.name = "Go8"
         self.version = 0.1
         self.MCTS= MCTS()
         self.rate = 0.1
